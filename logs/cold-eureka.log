@@ -1,0 +1,1574 @@
+2020-11-20 00:00:47.252 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a1fb1e6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:00:48.409 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:00:49.384 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:00:49.667 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:00:49.786 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a1fb1e6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:00:50.071 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:00:50.096 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:00:50.097 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:00:50.237 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:00:50.237 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 1811 ms
+2020-11-20 00:00:50.335 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:00:50.336 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:00:50.347 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@642f9a77
+2020-11-20 00:00:51.619 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:00:51.678 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:00:51.679 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:00:51.788 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:00:51.789 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:00:52.081 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:00:52.081 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:00:52.243 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:00:53.336 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:00:53.372 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:00:53.372 INFO  [main] c.netflix.discovery.DiscoveryClient[368] - Client configured to neither register nor query for data.
+2020-11-20 00:00:53.381 INFO  [main] c.netflix.discovery.DiscoveryClient[381] - Discovery Client initialized at timestamp 1605801653379 with initial instances count: 0
+2020-11-20 00:00:53.419 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:00:53.421 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:00:53.439 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:00:53.440 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:00:53.449 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:00:53.526 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:00:53.529 INFO  [Thread-27] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:00:53.531 INFO  [Thread-27] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:00:53.532 INFO  [Thread-27] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:00:53.549 INFO  [Thread-27] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:00:53.550 INFO  [Thread-27] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:00:53.550 INFO  [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl[241] - Got 1 instances from neighboring DS node
+2020-11-20 00:00:53.551 INFO  [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl[242] - Renew threshold is: 1
+2020-11-20 00:00:53.551 INFO  [Thread-27] c.n.e.r.PeerAwareInstanceRegistryImpl[253] - Changing status to UP
+2020-11-20 00:00:53.560 INFO  [Thread-27] o.s.c.n.e.s.EurekaServerInitializerConfiguration[74] - Started Eureka Server
+2020-11-20 00:00:53.575 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:00:53.577 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:00:53.579 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[59] - Started EurekaApplication in 9.194 seconds (JVM running for 11.796)
+2020-11-20 00:00:53.713 INFO  [RMI TCP Connection(1)-192.168.191.2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:00:53.714 INFO  [RMI TCP Connection(1)-192.168.191.2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:00:53.724 INFO  [RMI TCP Connection(1)-192.168.191.2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 10 ms
+2020-11-20 00:01:55.286 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d803b79c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:01:56.147 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:01:56.751 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:01:56.940 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:01:57.026 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d803b79c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:01:57.275 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:01:57.296 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:01:57.297 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:01:57.437 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:01:57.438 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 1278 ms
+2020-11-20 00:01:57.556 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:01:57.556 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:01:57.567 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@18b8d173
+2020-11-20 00:01:58.881 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:01:58.929 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:01:58.930 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:01:59.007 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:01:59.007 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:01:59.283 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:01:59.284 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:01:59.424 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:02:00.342 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:02:00.365 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:02:00.909 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:02:00.909 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:02:00.909 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:02:00.909 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:02:00.993 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:02:01.288 INFO  [main] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:02:01.289 INFO  [main] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:02:01.289 INFO  [main] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:02:01.289 INFO  [main] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:02:01.290 INFO  [main] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:02:01.290 INFO  [main] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:02:01.290 INFO  [main] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:02:06.796 ERROR [main] c.n.d.s.t.d.RedirectingEurekaHttpClient[83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka.zhcg.com:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$df6cb0bb.CGLIB$eurekaClient$2(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$df6cb0bb$$FastClassBySpringCGLIB$$9414927f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$df6cb0bb.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy96.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$717cbb7d.CGLIB$peerAwareInstanceRegistry$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$717cbb7d$$FastClassBySpringCGLIB$$b5cc5db3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$717cbb7d.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.java:13)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 110 common frames omitted
+2020-11-20 00:02:06.798 WARN  [main] c.n.d.s.t.d.RetryableEurekaHttpClient[130] - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+2020-11-20 00:02:06.799 ERROR [main] c.netflix.discovery.DiscoveryClient[990] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$df6cb0bb.CGLIB$eurekaClient$2(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$df6cb0bb$$FastClassBySpringCGLIB$$9414927f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$df6cb0bb.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy96.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$717cbb7d.CGLIB$peerAwareInstanceRegistry$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$717cbb7d$$FastClassBySpringCGLIB$$b5cc5db3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$717cbb7d.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.java:13)
+2020-11-20 00:02:06.800 WARN  [main] c.netflix.discovery.DiscoveryClient[297] - Using default backup registry implementation which does not do anything.
+2020-11-20 00:02:06.801 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2020-11-20 00:02:06.803 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-11-20 00:02:06.806 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1605801726805 with initial instances count: 0
+2020-11-20 00:02:06.829 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:02:06.830 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:02:06.836 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:02:06.837 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:02:06.845 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:02:06.903 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:02:06.904 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1605801726904, current=UP, previous=STARTING]
+2020-11-20 00:02:06.906 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001: registering service...
+2020-11-20 00:02:06.909 INFO  [Thread-35] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:02:06.910 INFO  [Thread-35] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:02:06.911 INFO  [Thread-35] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:02:06.922 INFO  [Thread-35] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:02:06.923 INFO  [Thread-35] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:02:06.940 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:02:06.941 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:02:06.942 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[59] - Started EurekaApplication in 13.481 seconds (JVM running for 14.516)
+2020-11-20 00:02:07.936 INFO  [RMI TCP Connection(7)-192.168.191.2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:02:07.936 INFO  [RMI TCP Connection(7)-192.168.191.2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:02:07.942 INFO  [RMI TCP Connection(7)-192.168.191.2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-11-20 00:02:11.916 ERROR [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient[83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka.zhcg.com:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+2020-11-20 00:02:11.917 WARN  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient[130] - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+2020-11-20 00:02:11.917 WARN  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[849] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-20 00:02:11.917 WARN  [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator[125] - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-20 00:02:36.802 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:02:36.803 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:02:36.803 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:02:36.803 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:02:36.803 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:02:36.803 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:02:36.803 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:03:43.714 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$261f70ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:03:44.314 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:03:44.784 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:03:44.936 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:03:45.004 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$261f70ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:03:45.175 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:03:45.192 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:03:45.192 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:03:45.299 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:03:45.299 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 977 ms
+2020-11-20 00:03:45.363 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:03:45.363 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:03:45.370 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5460b754
+2020-11-20 00:03:46.384 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:03:46.432 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:03:46.433 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:03:46.509 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:03:46.510 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:03:46.738 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:03:46.738 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:03:46.874 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:03:47.800 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:03:47.824 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:03:48.236 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:03:48.237 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:03:48.237 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:03:48.237 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:03:48.317 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:03:48.596 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2020-11-20 00:03:48.598 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-11-20 00:03:48.602 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1605801828601 with initial instances count: 0
+2020-11-20 00:03:48.628 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:03:48.629 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:03:48.636 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:03:48.637 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:03:48.646 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:03:48.717 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:03:48.718 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1605801828718, current=UP, previous=STARTING]
+2020-11-20 00:03:48.720 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001: registering service...
+2020-11-20 00:03:48.723 INFO  [Thread-21] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:03:48.724 INFO  [Thread-21] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:03:48.725 INFO  [Thread-21] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:03:48.741 INFO  [Thread-21] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:03:48.742 INFO  [Thread-21] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:03:48.765 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:03:48.766 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:03:48.768 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[59] - Started EurekaApplication in 6.355 seconds (JVM running for 7.173)
+2020-11-20 00:03:49.538 INFO  [RMI TCP Connection(4)-192.168.191.2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:03:49.539 INFO  [RMI TCP Connection(4)-192.168.191.2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:03:49.545 INFO  [RMI TCP Connection(4)-192.168.191.2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-11-20 00:03:53.792 ERROR [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient[83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka.zhcg.com:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+2020-11-20 00:03:53.792 WARN  [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient[130] - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to eureka.zhcg.com:8001 timed out
+2020-11-20 00:03:53.793 WARN  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[849] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-20 00:03:53.794 WARN  [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator[125] - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-20 00:04:22.762 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$53d6468d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:04:23.421 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:04:23.938 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:04:24.093 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:04:24.162 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$53d6468d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:04:24.353 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:04:24.372 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:04:24.373 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:04:24.477 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:04:24.477 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 1048 ms
+2020-11-20 00:04:24.548 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:04:24.549 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:04:24.556 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@611a990b
+2020-11-20 00:04:25.720 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:04:25.767 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:04:25.768 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:04:25.846 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:04:25.847 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:04:26.078 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:04:26.078 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:04:26.210 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:04:27.101 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:04:27.121 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:04:27.121 INFO  [main] c.netflix.discovery.DiscoveryClient[368] - Client configured to neither register nor query for data.
+2020-11-20 00:04:27.126 INFO  [main] c.netflix.discovery.DiscoveryClient[381] - Discovery Client initialized at timestamp 1605801867125 with initial instances count: 0
+2020-11-20 00:04:27.152 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:04:27.154 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:04:27.166 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:04:27.167 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:04:27.175 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:04:27.234 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:04:27.237 INFO  [Thread-20] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:04:27.237 INFO  [Thread-20] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:04:27.238 INFO  [Thread-20] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:04:27.250 INFO  [Thread-20] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:04:27.250 INFO  [Thread-20] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:04:27.251 INFO  [Thread-20] c.n.e.r.PeerAwareInstanceRegistryImpl[241] - Got 1 instances from neighboring DS node
+2020-11-20 00:04:27.251 INFO  [Thread-20] c.n.e.r.PeerAwareInstanceRegistryImpl[242] - Renew threshold is: 1
+2020-11-20 00:04:27.251 INFO  [Thread-20] c.n.e.r.PeerAwareInstanceRegistryImpl[253] - Changing status to UP
+2020-11-20 00:04:27.258 INFO  [Thread-20] o.s.c.n.e.s.EurekaServerInitializerConfiguration[74] - Started Eureka Server
+2020-11-20 00:04:27.268 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:04:27.269 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:04:27.270 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[59] - Started EurekaApplication in 5.795 seconds (JVM running for 6.598)
+2020-11-20 00:04:27.620 INFO  [RMI TCP Connection(4)-192.168.191.2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:04:27.620 INFO  [RMI TCP Connection(4)-192.168.191.2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:04:27.626 INFO  [RMI TCP Connection(4)-192.168.191.2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-11-20 00:05:26.278 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1173aa5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:05:26.904 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:05:27.430 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:05:27.574 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:05:27.635 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1173aa5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:05:27.817 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:05:27.835 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:05:27.835 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:05:27.933 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:05:27.934 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 1020 ms
+2020-11-20 00:05:28.002 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:05:28.003 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:05:28.010 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1cd3b138
+2020-11-20 00:05:28.968 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:05:29.014 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:05:29.015 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:05:29.088 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:05:29.089 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:05:29.304 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:05:29.304 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:05:29.422 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:05:30.216 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:05:30.239 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:05:30.617 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:05:30.618 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:05:30.618 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:05:30.618 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:05:30.690 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:05:30.954 INFO  [main] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:05:30.955 INFO  [main] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:05:30.955 INFO  [main] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:05:30.955 INFO  [main] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:05:30.956 INFO  [main] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:05:30.956 INFO  [main] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:05:30.956 INFO  [main] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:05:35.014 ERROR [main] c.n.d.s.t.d.RedirectingEurekaHttpClient[83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$18dca37a.CGLIB$eurekaClient$2(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$18dca37a$$FastClassBySpringCGLIB$$af587aa4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$18dca37a.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy96.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$aaecae3c.CGLIB$peerAwareInstanceRegistry$1(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$aaecae3c$$FastClassBySpringCGLIB$$fa675972.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$aaecae3c.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.java:13)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 110 common frames omitted
+2020-11-20 00:05:35.016 WARN  [main] c.n.d.s.t.d.RetryableEurekaHttpClient[130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-11-20 00:05:35.017 ERROR [main] c.netflix.discovery.DiscoveryClient[990] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$18dca37a.CGLIB$eurekaClient$2(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$18dca37a$$FastClassBySpringCGLIB$$af587aa4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$18dca37a.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy96.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$aaecae3c.CGLIB$peerAwareInstanceRegistry$1(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$aaecae3c$$FastClassBySpringCGLIB$$fa675972.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$aaecae3c.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.java:13)
+2020-11-20 00:05:35.018 WARN  [main] c.netflix.discovery.DiscoveryClient[297] - Using default backup registry implementation which does not do anything.
+2020-11-20 00:05:35.020 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2020-11-20 00:05:35.023 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-11-20 00:05:35.026 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1605801935025 with initial instances count: 0
+2020-11-20 00:05:35.062 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:05:35.063 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:05:35.071 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:05:35.073 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:05:35.085 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:05:35.159 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:05:35.160 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1605801935160, current=UP, previous=STARTING]
+2020-11-20 00:05:35.162 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001: registering service...
+2020-11-20 00:05:35.166 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:05:35.167 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:05:35.168 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:05:35.181 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:05:35.182 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:05:35.202 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:05:35.203 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:05:35.204 INFO  [main] c.zhcg.cold.eureka.EurekaApplication[59] - Started EurekaApplication in 10.177 seconds (JVM running for 10.948)
+2020-11-20 00:05:35.764 INFO  [http-nio-8001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:05:35.765 INFO  [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:05:35.771 INFO  [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-11-20 00:05:35.839 INFO  [http-nio-8001-exec-2] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 with status UP (replication=false)
+2020-11-20 00:05:35.856 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[853] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - registration status: 204
+2020-11-20 00:06:05.021 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:06:05.022 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:06:05.022 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:06:05.022 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:06:05.022 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:06:05.022 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:06:05.022 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:06:05.049 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[1074] - The response status is 200
+2020-11-20 00:06:05.187 INFO  [Thread-29] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 with status UP (replication=true)
+2020-11-20 00:06:05.187 INFO  [Thread-29] c.n.e.r.PeerAwareInstanceRegistryImpl[241] - Got 1 instances from neighboring DS node
+2020-11-20 00:06:05.187 INFO  [Thread-29] c.n.e.r.PeerAwareInstanceRegistryImpl[242] - Renew threshold is: 1
+2020-11-20 00:06:05.188 INFO  [Thread-29] c.n.e.r.PeerAwareInstanceRegistryImpl[253] - Changing status to UP
+2020-11-20 00:06:05.194 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerInitializerConfiguration[74] - Started Eureka Server
+2020-11-20 00:32:14.547 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f14a83bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:32:15.488 INFO  [main] scala.App[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:32:16.192 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:32:16.434 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:32:16.548 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f14a83bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:32:16.801 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:32:16.820 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:32:16.824 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:32:16.942 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:32:16.945 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 1444 ms
+2020-11-20 00:32:17.092 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:32:17.095 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:32:17.101 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@74ea46e2
+2020-11-20 00:32:18.256 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:32:18.331 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:32:18.331 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:32:18.460 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:32:18.460 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:32:18.828 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:32:18.828 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:32:18.983 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:32:19.975 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:32:19.998 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:32:20.374 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:32:20.374 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:32:20.374 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:32:20.374 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:32:20.449 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:32:20.716 INFO  [main] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:32:24.775 ERROR [main] c.n.d.s.t.d.RedirectingEurekaHttpClient[83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f8b37cde.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f8b37cde$$FastClassBySpringCGLIB$$2ad64d72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f8b37cde.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy97.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$8ac387a0.CGLIB$peerAwareInstanceRegistry$9(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$8ac387a0$$FastClassBySpringCGLIB$$5135c5c7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$8ac387a0.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication$.delayedEndpoint$com$zhcg$cold$eureka$EurekaApplication$1(EurekaApplication.scala:12)
+	at com.zhcg.cold.eureka.EurekaApplication$delayedInit$body.apply(EurekaApplication.scala:11)
+	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:73)
+	at scala.App.$anonfun$main$1$adapted(App.scala:73)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:921)
+	at scala.App.main(App.scala:73)
+	at scala.App.main$(App.scala:71)
+	at com.zhcg.cold.eureka.EurekaApplication$.main(EurekaApplication.scala:11)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.scala)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 123 common frames omitted
+2020-11-20 00:32:24.775 WARN  [main] c.n.d.s.t.d.RetryableEurekaHttpClient[130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-11-20 00:32:24.778 ERROR [main] c.netflix.discovery.DiscoveryClient[990] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f8b37cde.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f8b37cde$$FastClassBySpringCGLIB$$2ad64d72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$f8b37cde.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy97.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$8ac387a0.CGLIB$peerAwareInstanceRegistry$9(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$8ac387a0$$FastClassBySpringCGLIB$$5135c5c7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$8ac387a0.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication$.delayedEndpoint$com$zhcg$cold$eureka$EurekaApplication$1(EurekaApplication.scala:12)
+	at com.zhcg.cold.eureka.EurekaApplication$delayedInit$body.apply(EurekaApplication.scala:11)
+	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:73)
+	at scala.App.$anonfun$main$1$adapted(App.scala:73)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:921)
+	at scala.App.main(App.scala:73)
+	at scala.App.main$(App.scala:71)
+	at com.zhcg.cold.eureka.EurekaApplication$.main(EurekaApplication.scala:11)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.scala)
+2020-11-20 00:32:24.778 WARN  [main] c.netflix.discovery.DiscoveryClient[297] - Using default backup registry implementation which does not do anything.
+2020-11-20 00:32:24.781 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2020-11-20 00:32:24.781 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-11-20 00:32:24.784 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1605803544784 with initial instances count: 0
+2020-11-20 00:32:24.809 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:32:24.812 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:32:24.818 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:32:24.818 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:32:24.828 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:32:24.903 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:32:24.906 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1605803544906, current=UP, previous=STARTING]
+2020-11-20 00:32:24.906 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001: registering service...
+2020-11-20 00:32:24.910 INFO  [Thread-32] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:32:24.913 INFO  [Thread-32] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:32:24.913 INFO  [Thread-32] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:32:24.923 INFO  [Thread-32] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:32:24.923 INFO  [Thread-32] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:32:24.939 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:32:24.939 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:32:24.942 INFO  [main] scala.App[59] - Started App in 12.429 seconds (JVM running for 13.599)
+2020-11-20 00:32:25.484 INFO  [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:32:25.484 INFO  [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:32:25.491 INFO  [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-11-20 00:32:25.537 INFO  [http-nio-8001-exec-1] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 with status UP (replication=false)
+2020-11-20 00:32:25.550 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[853] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - registration status: 204
+2020-11-20 00:45:45.616 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$565412d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:45:46.230 INFO  [main] scala.App[648] - No active profile set, falling back to default profiles: default
+2020-11-20 00:45:46.708 WARN  [main] o.s.boot.actuate.endpoint.EndpointId[131] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-20 00:45:46.848 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=02635300-7202-3ee4-af5e-f4ad610bafa7
+2020-11-20 00:45:46.917 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$565412d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 00:45:47.104 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 8001 (http)
+2020-11-20 00:45:47.120 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-20 00:45:47.120 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-11-20 00:45:47.213 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-20 00:45:47.213 INFO  [main] o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 975 ms
+2020-11-20 00:45:47.336 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:45:47.340 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:45:47.343 INFO  [main] c.n.config.DynamicPropertyFactory[281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@76ad6715
+2020-11-20 00:45:48.284 INFO  [main] c.s.j.s.i.a.WebApplicationImpl[815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-20 00:45:48.330 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:45:48.330 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:45:48.403 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:45:48.403 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:45:48.638 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-11-20 00:45:48.638 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-11-20 00:45:48.774 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 00:45:49.663 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-11-20 00:45:49.687 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2020-11-20 00:45:50.120 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-11-20 00:45:50.124 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-11-20 00:45:50.124 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-11-20 00:45:50.124 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-11-20 00:45:50.197 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:45:50.498 INFO  [main] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:45:54.574 ERROR [main] c.n.d.s.t.d.RedirectingEurekaHttpClient[83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8001/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5dbd0bf1.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5dbd0bf1$$FastClassBySpringCGLIB$$62fe3350.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5dbd0bf1.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy97.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$efcd16b3.CGLIB$peerAwareInstanceRegistry$4(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$efcd16b3$$FastClassBySpringCGLIB$$9ef91eb8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$efcd16b3.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication$.delayedEndpoint$com$zhcg$cold$eureka$EurekaApplication$1(EurekaApplication.scala:12)
+	at com.zhcg.cold.eureka.EurekaApplication$delayedInit$body.apply(EurekaApplication.scala:11)
+	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:73)
+	at scala.App.$anonfun$main$1$adapted(App.scala:73)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:921)
+	at scala.App.main(App.scala:73)
+	at scala.App.main$(App.scala:71)
+	at com.zhcg.cold.eureka.EurekaApplication$.main(EurekaApplication.scala:11)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.scala)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 123 common frames omitted
+2020-11-20 00:45:54.589 WARN  [main] c.n.d.s.t.d.RetryableEurekaHttpClient[130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-11-20 00:45:54.589 ERROR [main] c.netflix.discovery.DiscoveryClient[990] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5dbd0bf1.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5dbd0bf1$$FastClassBySpringCGLIB$$62fe3350.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$5dbd0bf1.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy97.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration.peerAwareInstanceRegistry(EurekaServerAutoConfiguration.java:145)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$efcd16b3.CGLIB$peerAwareInstanceRegistry$4(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$efcd16b3$$FastClassBySpringCGLIB$$9ef91eb8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerAutoConfiguration$$EnhancerBySpringCGLIB$$efcd16b3.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.zhcg.cold.eureka.EurekaApplication$.delayedEndpoint$com$zhcg$cold$eureka$EurekaApplication$1(EurekaApplication.scala:12)
+	at com.zhcg.cold.eureka.EurekaApplication$delayedInit$body.apply(EurekaApplication.scala:11)
+	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+	at scala.App.$anonfun$main$1(App.scala:73)
+	at scala.App.$anonfun$main$1$adapted(App.scala:73)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:921)
+	at scala.App.main(App.scala:73)
+	at scala.App.main$(App.scala:71)
+	at com.zhcg.cold.eureka.EurekaApplication$.main(EurekaApplication.scala:11)
+	at com.zhcg.cold.eureka.EurekaApplication.main(EurekaApplication.scala)
+2020-11-20 00:45:54.589 WARN  [main] c.netflix.discovery.DiscoveryClient[297] - Using default backup registry implementation which does not do anything.
+2020-11-20 00:45:54.593 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2020-11-20 00:45:54.597 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-11-20 00:45:54.597 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1605804354597 with initial instances count: 0
+2020-11-20 00:45:54.620 INFO  [main] c.n.e.DefaultEurekaServerContext[63] - Initializing ...
+2020-11-20 00:45:54.620 WARN  [main] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:45:54.628 INFO  [main] c.n.e.r.AbstractInstanceRegistry[151] - Finished initializing remote region registries. All known remote regions: []
+2020-11-20 00:45:54.632 INFO  [main] c.n.e.DefaultEurekaServerContext[70] - Initialized
+2020-11-20 00:45:54.640 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver[58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-20 00:45:54.710 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-EUREKA-SERVER with eureka with status UP
+2020-11-20 00:45:54.710 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1605804354710, current=UP, previous=STARTING]
+2020-11-20 00:45:54.714 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001: registering service...
+2020-11-20 00:45:54.714 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[110] - Setting the eureka configuration..
+2020-11-20 00:45:54.718 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[115] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-20 00:45:54.718 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[129] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-20 00:45:54.729 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[188] - isAws returned false
+2020-11-20 00:45:54.729 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerBootstrap[153] - Initialized server context
+2020-11-20 00:45:54.745 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
+2020-11-20 00:45:54.745 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
+2020-11-20 00:45:54.749 INFO  [main] scala.App[59] - Started App in 10.391 seconds (JVM running for 11.261)
+2020-11-20 00:45:55.053 INFO  [RMI TCP Connection(4)-192.168.191.2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 00:45:55.053 INFO  [RMI TCP Connection(4)-192.168.191.2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-20 00:45:55.061 INFO  [RMI TCP Connection(4)-192.168.191.2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-11-20 00:45:55.331 INFO  [http-nio-8001-exec-1] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 with status UP (replication=false)
+2020-11-20 00:45:55.343 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[853] - DiscoveryClient_COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 - registration status: 204
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2020-11-20 00:46:24.598 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2020-11-20 00:46:24.617 INFO  [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient[1074] - The response status is 200
+2020-11-20 00:46:24.734 INFO  [Thread-29] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-EUREKA-SERVER/DESKTOP-GPBFL12:cold-eureka-server:8001 with status UP (replication=true)
+2020-11-20 00:46:24.735 INFO  [Thread-29] c.n.e.r.PeerAwareInstanceRegistryImpl[241] - Got 1 instances from neighboring DS node
+2020-11-20 00:46:24.735 INFO  [Thread-29] c.n.e.r.PeerAwareInstanceRegistryImpl[242] - Renew threshold is: 1
+2020-11-20 00:46:24.735 INFO  [Thread-29] c.n.e.r.PeerAwareInstanceRegistryImpl[253] - Changing status to UP
+2020-11-20 00:46:24.742 INFO  [Thread-29] o.s.c.n.e.s.EurekaServerInitializerConfiguration[74] - Started Eureka Server
+2020-11-20 00:47:24.738 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2020-11-20 00:48:24.739 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 00:49:24.741 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 00:50:24.744 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 00:50:50.505 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:51:24.746 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 00:52:24.750 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 00:53:24.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 00:54:24.757 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 00:55:24.757 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2020-11-20 00:55:50.506 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 00:55:54.628 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 00:56:24.757 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2020-11-20 00:57:24.761 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 00:58:24.765 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 00:59:24.785 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 20ms
+2020-11-20 01:00:24.787 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2020-11-20 01:00:50.511 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 01:00:54.629 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl[539] - Current renewal threshold is : 1
+2020-11-20 01:01:24.788 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:02:24.788 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2020-11-20 01:03:24.790 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2020-11-20 01:04:24.792 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:05:24.794 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:05:50.512 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 01:05:54.631 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2020-11-20 01:06:24.796 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2020-11-20 01:07:24.800 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2020-11-20 01:08:24.802 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:09:24.802 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2020-11-20 01:10:24.803 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2020-11-20 01:10:50.514 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-11-20 01:11:24.805 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:12:24.807 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2020-11-20 01:13:24.808 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:14:24.810 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2020-11-20 01:15:24.810 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
