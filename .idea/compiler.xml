@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cold-eureka" />
         <module name="cold-common" />
         <module name="cold-user" />
+        <module name="cold-eureka" />
       </profile>
     </annotationProcessing>
   </component>

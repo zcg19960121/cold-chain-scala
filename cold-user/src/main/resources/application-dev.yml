@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka.itheima.com:8001/eureka
+      defaultZone: http://localhost:8001/eureka
 
 spring:
   datasource:
